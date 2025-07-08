@@ -1,0 +1,87 @@
+.profile-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto; /* Merkezlemek için */
+}
+
+.profile-top {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-top img {
+  width: 120px; /* Resimdeki boyuta daha yakın */
+  height: 120px; /* Resimdeki boyuta daha yakın */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff; /* Beyaz çerçeve */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-top p:nth-child(2) {
+  /* Name */
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.profile-top p:nth-child(3) {
+  /* Tag */
+  font-size: 16px;
+  color: #888;
+  margin: 0;
+}
+
+.profile-top p:nth-child(4) {
+  /* Location */
+  font-size: 16px;
+  color: #888;
+  margin: 0;
+}
+
+.profile-stats {
+  background-color: #d3d3d3;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border-top: 1px solid #eee;
+}
+
+.profile-stats li {
+  flex: 1;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-stats li:not(:last-child) {
+  border-right: 1px solid #eee;
+}
+
+.profile-stats span:first-child {
+  /* Stat label (Followers, Views, Likes) */
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.profile-stats span:last-child {
+  /* Stat value */
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
