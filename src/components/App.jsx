@@ -1,6 +1,10 @@
-import React from 'react';
-import Profile from './profile/profileApp.jsx';
-import userData from './profile/userData.json';
+import React from "react";
+import Profile from "./profile/profileApp.jsx";
+import userData from "./profile/userData.json";
+import FriendList from "./friendList/friendList.jsx";
+import friends from "./friendList/friends.json";
+import TransactionHistory from "./transactionHistory/TransactionHistory.jsx";
+import transactions from "./transactionHistory/Transaction.json";
 
 const App = () => {
   return (
@@ -12,6 +16,8 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };

@@ -1,0 +1,28 @@
+.friend-card {
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  width: 120px;
+  margin: 10px;
+  background-color: white;
+}
+
+.friend-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.status {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
