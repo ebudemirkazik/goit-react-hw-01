@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "./profile/profileApp.jsx";
 import userData from "./profile/userData.json";
 import FriendList from "./friendList/FriendList.jsx";
-import friends from "./friendList/Friends.json";
+import friends from "./friendList/Friends";
 import TransactionHistory from "./transactionHistory/TransactionHistory.jsx";
 import transactions from "./transactionHistory/Transaction.json";
 
