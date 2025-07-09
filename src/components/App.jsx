@@ -5,6 +5,7 @@ import FriendList from "./friendList/FriendList.jsx";
 import friends from "./friendList/friends.json";
 import TransactionHistory from "./transactionHistory/TransactionHistory.jsx";
 import transactions from "./transactionHistory/Transaction.json";
+import "./app.css";
 
 const App = () => {
   return (
